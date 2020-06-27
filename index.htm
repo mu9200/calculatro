@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="main">
+        <form name="calcu">
+            <input type="text" value=" Mudasar's Calculator" id="app_name">
+            <input type="text" name="ans" id="result">
+
+            <div class="line2">
+                <input type="button" value="C" id="clearbtn" onclick="clearResult()" >
+                <input type="button" value="=" onclick="getResult()">
+            </div>
+
+
+            <div class="line1">
+                <input type="button" class="mian_num" value="7" onclick="getNumber('7')">
+                <input type="button" class="mian_num" value="8" onclick="getNumber('8')">
+                <input type="button" class="mian_num" value="9" onclick="getNumber('9')">
+                <input type="button" class="operator" value="*" onclick="getNumber('*')">
+
+            </div>
+            <div class="line1">
+                <input type="button" class="mian_num" value="4" onclick="getNumber('4')">
+                <input type="button" class="mian_num" value="5" onclick="getNumber('5')">
+                <input type="button" class="mian_num" value="6" onclick="getNumber('6')">
+                <input type="button" class="operator" value="-" onclick="getNumber('-')">
+
+            </div>
+            <div class="line1">
+                <input type="button" class="mian_num" value="1" onclick="getNumber('1')">
+                <input type="button" class="mian_num" value="2" onclick="getNumber('2')">
+                <input type="button" class="mian_num" value="3" onclick="getNumber('3')">
+                <input type="button" class="operator" value="+" onclick="getNumber('+')">
+
+            </div>
+            <div class="line1">
+                <input type="button" class="operator" value="." onclick="getNumber('.')">
+                <input type="button" class="mian_num" value="0" onclick="getNumber('0')">
+                <input type="button" class="operator" value="%" onclick="getNumber('%')">
+                <input type="button" class="operator" value="/" onclick="getNumber('/')">
+
+            </div>
+
+
+
+    </div>
+
+    </form>
+
+    </div>
+</body>
+
+</html>
